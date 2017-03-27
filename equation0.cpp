@@ -1,6 +1,8 @@
-#include "equation_0.h"
+#include "equation0.h"
+#include <iostream>
+#include <cmath>
 
-equation_0::equation_0(int newEquationTerm, int newEquationResult)
+equation_0::equation_0(double newEquationTerm, double newEquationResult)
 {
   equation_term = newEquationTerm;
   equation_result = newEquationResult;
@@ -14,10 +16,10 @@ void equation_0::solve()
 {
   if (equation_term != equation_result)
   {
-    std::cout << "C'est pas bon fdp" << std::end;
+    std::cout << "This equation is impossible to solve." << std::endl;
   }
   else
   {
-    std::cout << "La solution c'est l'ensemble des reels fdp" << std::endl;
+    std::cout << "The solution is equal to the whole set of real numbers" << std::endl;
   }
 }
