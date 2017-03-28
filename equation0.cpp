@@ -20,6 +20,6 @@ void equation_0::solve()
   }
   else
   {
-    std::cout << "The solution is equal to the whole set of real numbers" << std::endl;
+    std::cout << "The solution is equal to the whole set of real numbers." << std::endl;
   }
 }
